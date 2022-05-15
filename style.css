@@ -1,0 +1,18 @@
+.outer {
+    width: 100px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.circle {
+    background-color: black;
+    border-radius: 80%;
+    width: 100%;
+    margin: auto;
+}
+
+.circle:before {
+    content: "";
+    display: block;
+    padding-top: 200%;
+}
